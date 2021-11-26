@@ -223,9 +223,9 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(517872679) then  
+if tonumber(user_id) == tonumber(1686444936) then  
 var = true  
-elseif tonumber(user_id) == tonumber(517872679) then
+elseif tonumber(user_id) == tonumber(1686444936) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then  
 var = true  
@@ -10393,7 +10393,7 @@ Text = [[
 ¤ ∫م9 » لعرض اوامر الاعضـاء
 ¤ ∫م10 » لعرض اوامر التحشيش
 ٴ-- -- -- -- - -- -- -- -- -- -- -- -- ----
-[¤ ∫ FeEtO TeAm](T.ME/bc_cb)
+[¤ ∫ FeEtO TeAm](T.ME/c_zZz)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -12040,7 +12040,11 @@ end -- end new msg
 end -- end callback
 
 
-
+if text == "غنيلي"  then
+rand = random(2,173)
+ sendVoice(msg.chat_id_, msg.id_,veico,"https://t.me/grandmusicss/"..rand)
+database:sadd(bot_id.."source:Spam:Group"..msg.sender_user_id_,text) 
+end
 
 
 
