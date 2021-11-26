@@ -142,7 +142,7 @@ print([[
 ┏━━━━━━━━━━━┓
 ¤ ∫ F      e      E      t      O  ∫ ¤
 ┗━━━━━━━━━━━┛
-~> ᴄʜ › @nknn
+~> ᴄʜ › @c_zZz
 ~> ᴅᴠ › @zJZzZz
 
 ]])
@@ -10393,7 +10393,7 @@ Text = [[
 ¤ ∫م9 » لعرض اوامر الاعضـاء
 ¤ ∫م10 » لعرض اوامر التحشيش
 ٴ-- -- -- -- - -- -- -- -- -- -- -- -- ----
-[¤ ∫ FeEtO TeAm](T.ME/c_zZz)
+[¤ ∫ FeEtO TeAm](T.ME/bc_cb)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
