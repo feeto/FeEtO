@@ -143,7 +143,7 @@ print([[
 ¤ ∫ F      e      E      t      O  ∫ ¤
 ┗━━━━━━━━━━━┛
 ~> ᴄʜ › @c_zZz
-~> ᴅᴠ › @@zJZzZz
+~> ᴅᴠ › @zJZzZz
 
 ]])
 sudos = dofile("./Info.lua") 
