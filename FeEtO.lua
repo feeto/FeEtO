@@ -156,7 +156,7 @@ token = sudos.token
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,517872679,517872679}   
+sudo_users = {SUDO,1686444936,1686444936}   
 function SudoBot(msg)  
 local FeEtO = false  
 for k,v in pairs(sudo_users) do  
