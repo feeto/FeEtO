@@ -143,7 +143,7 @@ print([[
 ¤ ∫ F      e      E      t      O  ∫ ¤
 ┗━━━━━━━━━━━┛
 ~> ᴄʜ › @c_zZz
-~> ᴅᴠ › @GG11G
+~> ᴅᴠ › @@zJZzZz
 
 ]])
 sudos = dofile("./Info.lua") 
@@ -2651,9 +2651,9 @@ Text = [[
 ¤ ∫ FeEtO TeAm
 -- -- -- -- - -- -- -- -- -- -- -- -- --
 [¤ ∫ Channel FeEtO](T.ME/c_zZz)
-[¤ ∫ Devlpoer](t.me/GG11G)
+[¤ ∫ Devlpoer](t.me/zJZzZz)
 -- -- -- -- - -- -- -- -- -- -- -- -- --
-[¤ ∫ Twasl](t.me/GG11G)
+[¤ ∫ Twasl](t.me/G_11BOT)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
