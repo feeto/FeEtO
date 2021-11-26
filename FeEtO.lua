@@ -156,7 +156,7 @@ token = sudos.token
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1686444936,1686444936}   
+sudo_users = {SUDO,517872679,517872679}   
 function SudoBot(msg)  
 local FeEtO = false  
 for k,v in pairs(sudo_users) do  
@@ -223,9 +223,9 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(1686444936) then  
+if tonumber(user_id) == tonumber(517872679) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1686444936) then
+elseif tonumber(user_id) == tonumber(517872679) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then  
 var = true  
@@ -250,9 +250,9 @@ return var
 end 
 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1686444936) then  
+if tonumber(user_id) == tonumber(517872679) then  
 var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(1686444936) then
+elseif tonumber(user_id) == tonumber(517872679) then
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
@@ -12035,17 +12035,8 @@ end
 end
 end
 
-
 end -- end new msg
 end -- end callback
-
-
-if text == "غنيلي"  then
-rand = random(2,173)
- sendVoice(msg.chat_id_, msg.id_,veico,"https://t.me/grandmusicss/"..rand)
-database:sadd(bot_id.."source:Spam:Group"..msg.sender_user_id_,text) 
-end
-
 
 
 
